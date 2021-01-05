@@ -23,9 +23,9 @@ import (
 	"reflect"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/event"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/bucket/policy"
+	"github.com/angzam78/minio/pkg/event"
 )
 
 const (

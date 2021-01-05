@@ -16,7 +16,7 @@
 
 package compress
 
-import "github.com/minio/minio/cmd/config"
+import "github.com/angzam78/minio/cmd/config"
 
 // Help template for compress feature.
 var (

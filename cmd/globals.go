@@ -23,24 +23,24 @@ import (
 	"time"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/pkg/bucket/bandwidth"
+	"github.com/angzam78/minio/pkg/bucket/bandwidth"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	"github.com/minio/minio/cmd/config/dns"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/auth"
+	"github.com/angzam78/minio/cmd/config/cache"
+	"github.com/angzam78/minio/cmd/config/compress"
+	"github.com/angzam78/minio/cmd/config/dns"
+	xldap "github.com/angzam78/minio/cmd/config/identity/ldap"
+	"github.com/angzam78/minio/cmd/config/identity/openid"
+	"github.com/angzam78/minio/cmd/config/policy/opa"
+	"github.com/angzam78/minio/cmd/config/storageclass"
+	"github.com/angzam78/minio/cmd/crypto"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/pkg/auth"
 	etcd "go.etcd.io/etcd/v3/clientv3"
 
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/pubsub"
+	"github.com/angzam78/minio/pkg/certs"
+	"github.com/angzam78/minio/pkg/event"
+	"github.com/angzam78/minio/pkg/pubsub"
 )
 
 // minio configuration related constants.

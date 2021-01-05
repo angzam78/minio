@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/event"
+	"github.com/angzam78/minio/pkg/madmin"
 )
 
 // BucketQuotaSys - map of bucket and quota configuration.

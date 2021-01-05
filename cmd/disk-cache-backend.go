@@ -35,11 +35,11 @@ import (
 	"time"
 
 	"github.com/djherbis/atime"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/disk"
+	"github.com/angzam78/minio/cmd/config/cache"
+	"github.com/angzam78/minio/cmd/crypto"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/disk"
 	"github.com/minio/sio"
 )
 

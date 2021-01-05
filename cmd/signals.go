@@ -23,7 +23,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/minio/minio/cmd/logger"
+	"github.com/angzam78/minio/cmd/logger"
 )
 
 func handleSignals() {

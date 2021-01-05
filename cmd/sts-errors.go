@@ -21,8 +21,8 @@ import (
 	"encoding/xml"
 	"net/http"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
 )
 
 // writeSTSErrorRespone writes error headers

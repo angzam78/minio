@@ -25,8 +25,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
 )
 
 var (

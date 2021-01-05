@@ -23,7 +23,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/minio/minio/cmd/crypto"
+	"github.com/angzam78/minio/cmd/crypto"
 )
 
 // Tests getRedirectLocation function for all its criteria.

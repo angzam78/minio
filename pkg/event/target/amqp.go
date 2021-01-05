@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/angzam78/minio/pkg/event"
+	xnet "github.com/angzam78/minio/pkg/net"
 	"github.com/streadway/amqp"
 )
 

@@ -29,10 +29,10 @@ import (
 	humanize "github.com/dustin/go-humanize"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/config/api"
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/env"
+	"github.com/angzam78/minio/cmd/config"
+	"github.com/angzam78/minio/cmd/config/api"
+	"github.com/angzam78/minio/pkg/certs"
+	"github.com/angzam78/minio/pkg/env"
 )
 
 const (

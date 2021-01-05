@@ -35,17 +35,17 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/logger/message/log"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/handlers"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
-	xnet "github.com/minio/minio/pkg/net"
-	trace "github.com/minio/minio/pkg/trace"
+	"github.com/angzam78/minio/cmd/config"
+	"github.com/angzam78/minio/cmd/crypto"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/cmd/logger/message/log"
+	"github.com/angzam78/minio/pkg/auth"
+	"github.com/angzam78/minio/pkg/handlers"
+	iampolicy "github.com/angzam78/minio/pkg/iam/policy"
+	"github.com/angzam78/minio/pkg/madmin"
+	xnet "github.com/angzam78/minio/pkg/net"
+	trace "github.com/angzam78/minio/pkg/trace"
 )
 
 const (

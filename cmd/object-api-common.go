@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/angzam78/minio/cmd/logger"
 )
 
 const (

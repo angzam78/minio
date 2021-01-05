@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/logger/message/log"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/console"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/cmd/logger/message/log"
+	"github.com/angzam78/minio/pkg/color"
+	"github.com/angzam78/minio/pkg/console"
 )
 
 // Target implements loggerTarget to send log

@@ -23,8 +23,8 @@ import (
 	pathutil "path"
 	"runtime"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/lock"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/lock"
 )
 
 // Removes only the file at given path does not remove
@@ -349,7 +349,7 @@ func fsFAllocate(fd int, offset int64, len int64) (err error) {
 			// Ignore errors when Fallocate is not supported in the current system
 		case isSysErrInvalidArg(e):
 			// Workaround for Windows Docker Engine 19.03.8.
-			// See https://github.com/minio/minio/issues/9726
+			// See https://github.com/angzam78/minio/issues/9726
 		case isSysErrIO(e):
 			err = e
 		default:

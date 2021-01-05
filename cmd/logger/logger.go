@@ -32,7 +32,7 @@ import (
 
 	"github.com/minio/highwayhash"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/logger/message/log"
+	"github.com/angzam78/minio/cmd/logger/message/log"
 )
 
 var (
@@ -159,7 +159,7 @@ func SetDeploymentID(deploymentID string) {
 }
 
 // Init sets the trimStrings to possible GOPATHs
-// and GOROOT directories. Also append github.com/minio/minio
+// and GOROOT directories. Also append github.com/angzam78/minio
 // This is done to clean up the filename, when stack trace is
 // displayed when an error happens.
 func Init(goPath string, goRoot string) {

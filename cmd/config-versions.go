@@ -19,19 +19,19 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/notify"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event/target"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/angzam78/minio/cmd/config"
+	"github.com/angzam78/minio/cmd/config/cache"
+	"github.com/angzam78/minio/cmd/config/compress"
+	xldap "github.com/angzam78/minio/cmd/config/identity/ldap"
+	"github.com/angzam78/minio/cmd/config/identity/openid"
+	"github.com/angzam78/minio/cmd/config/notify"
+	"github.com/angzam78/minio/cmd/config/policy/opa"
+	"github.com/angzam78/minio/cmd/config/storageclass"
+	"github.com/angzam78/minio/cmd/crypto"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/auth"
+	"github.com/angzam78/minio/pkg/event/target"
+	"github.com/angzam78/minio/pkg/quick"
 )
 
 /////////////////// Config V1 ///////////////////

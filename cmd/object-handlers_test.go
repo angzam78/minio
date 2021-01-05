@@ -37,10 +37,10 @@ import (
 	"testing"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/auth"
-	ioutilx "github.com/minio/minio/pkg/ioutil"
+	"github.com/angzam78/minio/cmd/crypto"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/pkg/auth"
+	ioutilx "github.com/angzam78/minio/pkg/ioutil"
 )
 
 // Type to capture different modifications to API request to simulate failure cases.

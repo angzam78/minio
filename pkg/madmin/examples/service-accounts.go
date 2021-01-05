@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/policy/condition"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/angzam78/minio/pkg/bucket/policy"
+	"github.com/angzam78/minio/pkg/bucket/policy/condition"
+	iampolicy "github.com/angzam78/minio/pkg/iam/policy"
+	"github.com/angzam78/minio/pkg/madmin"
 )
 
 func main() {

@@ -29,18 +29,18 @@ import (
 
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/config/dns"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/bucket/replication"
+	"github.com/angzam78/minio/cmd/config/dns"
+	"github.com/angzam78/minio/cmd/crypto"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/auth"
+	"github.com/angzam78/minio/pkg/bucket/lifecycle"
+	"github.com/angzam78/minio/pkg/bucket/replication"
 
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/versioning"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/hash"
+	objectlock "github.com/angzam78/minio/pkg/bucket/object/lock"
+	"github.com/angzam78/minio/pkg/bucket/policy"
+	"github.com/angzam78/minio/pkg/bucket/versioning"
+	"github.com/angzam78/minio/pkg/event"
+	"github.com/angzam78/minio/pkg/hash"
 )
 
 // APIError structure
@@ -242,7 +242,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://github.com/angzam78/minio/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

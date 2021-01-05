@@ -26,7 +26,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/minio/minio/pkg/auth"
+	"github.com/angzam78/minio/pkg/auth"
 )
 
 // ServiceType represents service type

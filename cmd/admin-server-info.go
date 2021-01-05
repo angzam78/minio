@@ -19,7 +19,7 @@ package cmd
 import (
 	"net/http"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/angzam78/minio/pkg/madmin"
 )
 
 // getLocalServerProperty - returns madmin.ServerProperties for only the

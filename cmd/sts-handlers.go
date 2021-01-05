@@ -25,12 +25,12 @@ import (
 	"strings"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/angzam78/minio/cmd/config/identity/openid"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/auth"
+	iampolicy "github.com/angzam78/minio/pkg/iam/policy"
+	"github.com/angzam78/minio/pkg/wildcard"
 )
 
 const (

@@ -31,8 +31,8 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/minio/minio/cmd/config"
-	xhttp "github.com/minio/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/config"
+	xhttp "github.com/angzam78/minio/cmd/http"
 )
 
 var (

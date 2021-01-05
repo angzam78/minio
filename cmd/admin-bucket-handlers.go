@@ -23,11 +23,11 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/env"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/angzam78/minio/cmd/config"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/env"
+	iampolicy "github.com/angzam78/minio/pkg/iam/policy"
+	"github.com/angzam78/minio/pkg/madmin"
 )
 
 const (

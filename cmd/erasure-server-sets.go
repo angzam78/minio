@@ -30,11 +30,11 @@ import (
 
 	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/dsync"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/angzam78/minio/cmd/config/storageclass"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/dsync"
+	"github.com/angzam78/minio/pkg/madmin"
+	"github.com/angzam78/minio/pkg/sync/errgroup"
 )
 
 type erasureServerSets struct {

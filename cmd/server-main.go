@@ -30,15 +30,15 @@ import (
 	"time"
 
 	"github.com/minio/cli"
-	"github.com/minio/minio/cmd/config"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/bucket/bandwidth"
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/env"
+	"github.com/angzam78/minio/cmd/config"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/cmd/rest"
+	"github.com/angzam78/minio/pkg/auth"
+	"github.com/angzam78/minio/pkg/bucket/bandwidth"
+	"github.com/angzam78/minio/pkg/certs"
+	"github.com/angzam78/minio/pkg/color"
+	"github.com/angzam78/minio/pkg/env"
 )
 
 // ServerFlags - server command specific flags

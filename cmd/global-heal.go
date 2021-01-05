@@ -21,8 +21,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/madmin"
 )
 
 const (

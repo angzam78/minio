@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio/pkg/certs"
+	"github.com/angzam78/minio/pkg/certs"
 )
 
 func updateCerts(crt, key string) {

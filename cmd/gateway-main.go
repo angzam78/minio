@@ -28,11 +28,11 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/minio/cli"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/env"
+	xhttp "github.com/angzam78/minio/cmd/http"
+	"github.com/angzam78/minio/cmd/logger"
+	"github.com/angzam78/minio/pkg/certs"
+	"github.com/angzam78/minio/pkg/color"
+	"github.com/angzam78/minio/pkg/env"
 )
 
 var (
